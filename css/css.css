@@ -8,7 +8,6 @@
 html,body{
     width: 100%;
     height: 100%;
-	overflow:hidden;
 }
 body{
 	background: #3498db;
@@ -23,14 +22,19 @@ body{
 	flex-direction: column;
 	min-width:1200px;
 }
+#logo{
+	height: 100px;
+	width: 400px;
+	
+}
 a{
 	text-decoration:none;
 }
 #导航{
 	position: absolute;
-	width: 96%;
+	width: 94%;
 	top: 100px;
-	left: 2%;
+	left: 3%;
 	z-index: 200;
 	padding-bottom: 20px;
 	border-bottom: 1px solid rgba(255,255,255,.5);
@@ -59,8 +63,14 @@ a{
     height:100%;
 	position:absolute
 }
-#资源分享,#软件下载,#留言反馈{
-	top: 100%;
+#网站首页{
+	overflow:hidden;
+}
+#网站首页 h2{
+	color: #fff;
+}
+#网站首页 h2:hover{
+	color: rgb(234, 250, 8);
 }
 #最新{
 	width: 100%;
@@ -70,6 +80,9 @@ a{
 }
 #最新{
 	transform: translateY(150px);
+}
+#最新 h1{
+	margin-left: 1.25em;
 }
 #最新软件{
 	border-style:solid;
@@ -88,7 +101,8 @@ a{
 	border-radius: 15px;
 	width: 35%;
 	height: 60%;
-	transform:translateX(50px);/**右移元素**/
+	transform: translateY(-25px);
+	margin-left: 50px;
 	position: relative;
 	display: inline-block;
 }
@@ -104,12 +118,6 @@ a{
 	clear: both;
 	margin-right: 10px;
 }
-#网站首页 h2{
-	color: #fff;
-}
-#网站首页 h2:hover{
-	color: rgb(234, 250, 8);
-}
 #版权声明1{
 	background-color: #999;
 	width: 100%;
@@ -121,6 +129,19 @@ a{
 	left:0px;
 	height: 60px;
   }
+#软件下载 h2{
+	border-bottom-style: solid;
+	border-width: 3px;
+	border-color: gold;
+	width: 15%;
+	word-spacing: 5em;
+}
+#软件下载 h3{
+	color: #fff;
+}
+#软件下载 h3:hover{
+	color: rgb(234, 250, 8);
+}
 #PC端软件{
 	border-width: 2px;
 	border-style: solid;
@@ -149,19 +170,6 @@ a{
 	display: inline-block;
 	width: 45%;
 	transform: translateY(43%);
-}
-#软件下载 h2{
-	border-bottom-style: solid;
-	border-width: 3px;
-	border-color: gold;
-	width: 15%;
-	word-spacing: 5em;
-}
-#软件下载 h3{
-	color: #fff;
-}
-#软件下载 h3:hover{
-	color: rgb(234, 250, 8);
 }
 #版权声明2{
 	background-color: #999;
