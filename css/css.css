@@ -21,6 +21,7 @@ body{
 	-webkit-flex-direction:column;
 	flex-direction: column;
 	min-width:1200px;
+	overflow:hidden;
 }
 #logo{
 	height: 100px;
@@ -62,9 +63,6 @@ a{
 	width:100%;
     height:100%;
 	position:absolute
-}
-#网站首页{
-	overflow:hidden;
 }
 #网站首页 h2{
 	color: #fff;
@@ -117,6 +115,9 @@ a{
 	transform: translateY(-520px);
 	clear: both;
 	margin-right: 10px;
+}
+#疫情动态 a:hover{
+	color: darkgreen;
 }
 #版权声明1{
 	background-color: #999;
@@ -192,6 +193,9 @@ a{
 	bottom:0px;
 	left:0px;
 	height: 60px;
+}
+#提示{
+	margin-top: 10%;
 }
 #联系{
 	color:black;
