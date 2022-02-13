@@ -21,11 +21,11 @@ body{
 	-webkit-flex-direction:column;
 	flex-direction: column;
 	min-width:1200px;
+	overflow:hidden;
 }
-#logo{
+#logo1{
 	height: 100px;
 	width: 400px;
-	
 }
 a{
 	text-decoration:none;
@@ -63,9 +63,6 @@ a{
     height:100%;
 	position:absolute
 }
-#网站首页{
-	overflow:hidden;
-}
 #网站首页 h2{
 	color: #fff;
 }
@@ -89,34 +86,45 @@ a{
 	border-width: 2px;
 	border-color: black;
 	border-radius: 15px;
+	padding-left: 10px;
 	width: 35%;
 	height: 60%;
 	transform:translateX(10px);/**右移元素**/
+	position: relative;
 	display: inline-block;
+	z-index: 2;
 }
 #最新资源{
 	border-style:solid;
 	border-width: 2px;
 	border-color: black;
 	border-radius: 15px;
+	padding-left: 10px;
 	width: 35%;
 	height: 60%;
 	transform: translateY(-25px);
 	margin-left: 50px;
 	position: relative;
 	display: inline-block;
+	z-index: 2;
 }
 #疫情动态{
 	border-style:solid;
 	border-width: 2px;
 	border-color: rgb(216, 20, 20);
 	border-radius: 10px;
+	padding-left: 10px;
 	width: 20%;
 	height:auto;
 	float:right;
 	transform: translateY(-520px);
 	clear: both;
 	margin-right: 10px;
+}
+#logo2{
+	position: relative;
+	left: 30%;
+	transform: translateY(-70%);
 }
 #版权声明1{
 	background-color: #999;
@@ -171,6 +179,12 @@ a{
 	width: 45%;
 	transform: translateY(43%);
 }
+#装饰3{
+	position: relative;
+	transform: translateX(-10%);
+	bottom: 40%;
+	left: 88%;
+}
 #版权声明2{
 	background-color: #999;
 	width: 100%;
@@ -192,6 +206,9 @@ a{
 	bottom:0px;
 	left:0px;
 	height: 60px;
+}
+#提示{
+	margin-top: 10%;
 }
 #联系{
 	color:black;
