@@ -27,6 +27,20 @@ body{
 	height: 100px;
 	width: 400px;
 }
+#box{
+	position: absolute;
+	top: 5%;
+	right: 5%;
+}
+#search{
+	width: auto;
+	border-color: rgb(240, 207, 21);
+	border-width: 5px;
+	border-radius: 4px;
+	padding: 1px 5px;
+	background-color: #fff;
+	text-align: center;
+}
 a{
 	text-decoration:none;
 }
@@ -110,9 +124,9 @@ a{
 }
 #疫情动态{
 	border-style:solid;
-	border-width: 2px;
+	border-width: 6px;
 	border-color: rgb(216, 20, 20);
-	border-radius: 10px;
+	border-radius: 20px;
 	padding-left: 10px;
 	width: 20%;
 	height:auto;
@@ -127,7 +141,7 @@ a{
 	transform: translateY(-70%);
 }
 #版权声明1{
-	background-color: #999;
+	background-color: rgb(194, 191, 191);
 	width: 100%;
 	text-align:center;
 	padding: 10px 0;
@@ -156,8 +170,9 @@ a{
 	border-radius: 4px;
 	border-color: cyan;
 	padding: 10px 20px;
-	width:21%;
+	width:auto;
 	color:#fff;
+	text-align: center;
 }
 #Android端软件{
 	border-width: 2px;
@@ -165,8 +180,9 @@ a{
 	border-radius: 4px;
 	border-color: cyan;
 	padding: 10px 20px;
-	width:29%;
+	width:auto;
 	color: #fff;
+	text-align: center;
 }
 #PC端{
 	display: inline-block;
@@ -186,7 +202,7 @@ a{
 	left: 88%;
 }
 #版权声明2{
-	background-color: #999;
+	background-color: rgb(194, 191, 191);
 	width: 100%;
 	text-align:center;
 	padding: 10px 0;
@@ -196,8 +212,29 @@ a{
 	left:0px;
 	height: 60px;
 }
+#资源{
+	position:absolute;
+	width: 70%;
+	height: auto;
+	left: 15%;
+	top: 150px;
+	border-color: black;
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 20px;
+	padding: 10px 20px;
+	text-align: center;
+}
+#资源 p{
+	color: rgb(73, 9, 133);
+	font-weight: bolder;
+}
+#资源 p:hover{
+	color: black;
+	font-size: larger;
+}
 #版权声明3{
-	background-color: #999;
+	background-color: rgb(194, 191, 191);
 	width: 100%;
 	text-align:center;
 	padding: 10px 0;
@@ -225,7 +262,7 @@ a{
 	-o-transform: translateY(-50%);
 }
 #版权声明4{
-	background-color: #999;
+	background-color: rgb(194, 191, 191);
 	width: 100%;
 	text-align:center;
 	padding: 10px 0;
