@@ -11,9 +11,19 @@
     <meta name="robots" content="all"> 
     <title>PJP小站首页</title>
     <link href="css/css.css" rel="stylesheet" type="text/css">
+    <script src="script/jquery-3.5.1.js"></script>
 </head>
 <body>
-    <img src="img/logo1.png" alt="PJP小站" id="logo1">     
+    <img src="img/logo1.png" alt="PJP小站" id="logo1">
+    <form id="box" action="" method="get">
+        <input type="text" name="search" placeholder="请输入关键字" required="required">
+        <div id="search" style="display: inline;">搜一下</div>
+        <ul id="list">
+
+
+        </ul>
+    </form> 
+    <script src="script\模糊搜索.js"></script>    
     <header>
         <nav>
             <ul id="导航">
@@ -227,7 +237,28 @@
         <footer id="版权声明2">Copyright 2021-2022 www.buctpjp.byethost4.com 版权所有</footer>
     </section>
     <section id="资源分享">
-        此栏目正在建设中
+        <div id="资源">
+            <a href="magnet:?xt=urn:btih:77F6D7C14BCA5F98250C77E4A9A762E93069E70F">
+                <p>
+                    电视剧《开端》全15集-4K-迅雷下载
+                </p>
+            </a>
+            <a href="magnet:?xt=urn:btih:CCFE047B121765048A0722D13323114056D46999">
+                <p>
+                    速度与激情9-中字4K-迅雷下载
+                </p>
+            </a>
+            <a href="magnet:?xt=urn:btih:27584372468A8F597D2A2E28CE89345A5F2377C8">
+                <p>
+                    蜘蛛侠:英雄无归-中英双语1080p-迅雷下载
+                </p>
+            </a>
+            <a href="magnet:?xt=urn:btih:6168CD44CDC9343B2C5064D59BBBFE1ADBA0955F">
+                <p>
+                    尚气-中字4K-迅雷下载
+                </p>
+            </a>
+        </div>
         <footer id="版权声明3">Copyright 2021-2022 www.buctpjp.byethost4.com 版权所有</footer>
     </section>
     <section id="留言反馈">
@@ -255,7 +286,7 @@
 		  document.getElementById("iealert").style.display = "block";
 	  }
     </script>
-    <script src="script/jquery-2.1.4.min.js"></script>
+    <script src="script/jquery-3.5.1.min.js"></script>
     <script src="script/TweenMax.min.js"></script>
     <script src="script/main.js"></script>
 </body>
